@@ -1,0 +1,176 @@
+\documentclass[12pt, portuguese]{article}
+%\documentclass[12pt, english]{article}
+%%%%%%%%%%%%%%%%%
+%   Pacotes
+%%%%%%%%%%%%%%%%%
+
+%Ortografia
+%\usepackage{babel}       %Dicionário - Português
+\usepackage[portuguese]{babel}       %Dicionário - Português
+\usepackage[latin1]{inputenc}    %Reconhece acento e cedilha
+\usepackage[T1]{fontenc}         %Acentuação
+\usepackage[normalem]{ulem}
+\usepackage[mathscr]{euscript}
+
+%Gráficos
+\usepackage{graphicx}
+\usepackage{rotate}              %Gráficos
+\usepackage{enumerate, graphics}     %Enumerar gráficos
+\usepackage{epsfig}      %Inserir figura com extensão post-scriptum
+\usepackage{color}
+\usepackage{setspace}
+\usepackage{float}
+%\usepackage{subcaption}
+\usepackage{subfig}
+\usepackage{epstopdf}
+
+%Matemática
+\usepackage{amsfonts}            %Fontes do Pacote ams
+\usepackage{amsmath}             %Funções matemáticas em ams
+\usepackage{amssymb,latexsym}
+%\usepackage{breqn}
+
+%Tabela
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{longtable}
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+\usepackage{tabularx}% http://ctan.org/pkg/tabularx
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{booktabs}
+\definecolor{black}{rgb}{0,0,.5}
+\usepackage{hyperref}
+\hypersetup{
+   bookmarks=true,         % show bookmarks bar?
+   unicode=false,          % non-Latin characters in Acrobat’s bookmarks
+   pdftoolbar=true,        % show Acrobat’s toolbar?
+   pdfmenubar=true,        % show Acrobat’s menu?
+   pdffitwindow=false,     % window fit to page when opened
+   pdfstartview={FitH},    % fits the width of the page to the window
+   %pdftitle={My title},    % title
+   %pdfauthor={Author},     % author
+   %pdfsubject={Subject},   % subject of the document
+   %pdfcreator={Creator},   % creator of the document
+   %pdfproducer={Producer}, % producer of the document
+   %pdfkeywords={keyword1} {key2} {key3}, % list of keywords
+   pdfnewwindow=true,      % links in new window
+   colorlinks=true,       % false: boxed links; true: colored links
+   linkcolor=black,          % color of internal links
+   citecolor=black,        % color of links to bibliography - dark blue
+   filecolor=magenta,      % color of file links
+   urlcolor=blue           % color of external links
+}
+\usepackage{pifont}
+
+%Formatação
+\usepackage{palatino}
+\usepackage{natbib}
+\usepackage{geometry}
+\usepackage{verbatim}
+
+
+\geometry{top=2.5cm, bottom=2.5cm, right=2.5cm, left=2.5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\title{Aula sobre conceitos básicos do Latex}}}
+%\date{}
+%\vspace{1cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\author{
+%Cássio da Nóbrega Besarria\\Universidade Federal da Paraíba\\cassio.besaria$@$ufpe.br
+%}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\maketitle
+
+%\input{resumo.tex}
+
+%\setcounter{page}{1}
+%\begin{center}
+	%\textcolor{red}{\textbf{Área 4 - Macroeconomia, Economia Monetária e Finanças}}
+%\end{center}
+
+%\begin{center}
+%	\textbf{JEL:C00, C33, F43}
+%\end{center}
+
+\clearpage
+
+\onehalfspacing
+
+
+
+%\section{Introdução} \indent
+
+%No século XX surge o modelo de crescimento econômico proposto por \cite{solow1956contribution}, o qual propunha que o crescimento era função da acumulação de capital e do progresso tecnológico, sendo que a acumulação de capital, por si só, não era capaz de explicar ou sustentar o aumento permanente da taxa de crescimento do produto. A explicação para esse componente é dada pelo fato de que uma taxa de poupança maior pode promover um maior crescimento do produto por trabalhador, mas esta não tem nenhum efeito sobre a taxa de crescimento econômico de longo prazo, tal como pode ser observado em \cite{solow1956contribution}. Assim, o crescimento econômico de longo prazo exige progresso tecnológico sustentado. 
+
+
+
+%\section{Procedimentos metodológicos} 
+
+%\subsection{Estratégia empírica} \indent
+
+%A estimativa dos efeitos de curto e longo prazo da desigualdade sobre o crescimento será feita a partir da transformação da equação (\ref{obj1}) em um modelo de dados em painel, podendo ser representada por:
+
+%\begin{equation}
+%y_{it}-y_{it-1}=\gamma{y_{it-1}}+d_{it}+d_{it-1}+\delta^{'}x_{it-1}+\zeta_t+(\eta_t+v_{it})
+%\label{obj1}
+%\end{equation}
+%em que \emph{i=1,...,N} denota um dos onze países da América Latina que fazem parte da amostra de dados, e \emph{t=1,...,T} é o tempo. 
+
+%\textcolor{red}{Quanto à estimação dos efeitos de longo prazo, este é um ponto que diferencia esse estudo do proposto por \cite{halter2014inequality}.}
+
+
+%\section{Discussão e análise dos resultados} \indent
+
+%\epstopdfsetup{update} % only regenerate pdf files when eps file is newer
+%\begin{figure}[H]
+%	\centering
+%	\caption{Gastos em proporção do PIB}
+%	\includegraphics[scale=0.15]{figb} % loads sine-eps-converted-to.pdf
+%	\caption*{\small \textbf{Fonte:} Elaboração própria}
+%	\label{fig1}
+%\end{figure}
+
+%\section{Atividade de casa}
+
+%\begin{itemize}
+%	\item Escrever um breve relato (três parágrafos) sobre algum dos temas discutidos em sala de aula, referenciando algum autor.
+%	\item Plotar os gráficos das séries de consumo do governo e FBCF, presentes no site: (https://www3.bcb.gov.br);
+%	\item Baixar o pacote excel2latex, criar uma tabela e importar para o arquivo latex;
+	
+%\end{itemize}
+
+% End of TeX file.
+
+\bibliographystyle{te}
+
+\bibliography{refs,tempseries,bib2,bib}
+
+%\appendix
+%\section{Apêndice}
+
+%\begin{table}[H]
+%	\centering
+%	\caption{Teste de cointegração de Engle-Granger	e Phillips-Ouliaris}
+%	\label{tav}
+%	\begin{tabular}{lm{2cm}m{1.5cm}}
+%	\toprule  
+%		Testes	& Engle-Granger	& Phillips-Ouliaris	  \\ \midrule
+%		Estatística de teste	&	-2.16	&	-2.65	\\
+%		Valor crítico	&	-3.42	&	-3.42		\\ 	 
+%		\bottomrule
+%		\multicolumn{3}{l}{{\footnotesize \text{Fonte:} Elaboração própria}}
+%	\end{tabular}
+%\end{table}
+
+
+
+\end{document}
